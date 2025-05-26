@@ -1,79 +1,79 @@
-# シンプルBBS
+# Simple BBS
 
-モダンでミニマルなデザインの掲示板アプリケーション。
+A modern and minimal design bulletin board system application.
 
-## 🌟 特徴
+## 🌟 Features
 
-- ✨ モダンでミニマルなUI
-- 📱 レスポンシブデザイン
-- 🚀 シンプルで使いやすい
-- 🔒 XSS対策済み
+- ✨ Modern and minimal UI
+- 📱 Responsive design
+- 🚀 Simple and user-friendly
+- 🔒 XSS protection implemented
 
-## 🛠 技術スタック
+## 🛠 Tech Stack
 
 - HTML5
-- CSS3（モダンなCSSプロパティを活用）
-- 純粋なJavaScript（バニラJS）
+- CSS3 (utilizing modern CSS properties)
+- Pure JavaScript (Vanilla JS)
 
-## 📦 機能
+## 📦 Functionality
 
-- 名前とメッセージの投稿
-- 投稿日時の自動記録
-- リアルタイムでの投稿表示
-- レスポンシブなレイアウト
-- エラー処理とバリデーション
+- Name and message posting
+- Automatic timestamp recording
+- Real-time post display
+- Responsive layout
+- Error handling and validation
 
-## 🚀 使い方
+## 🚀 How to Use
 
-1. ページにアクセス
-2. 「お名前」を入力
-3. 「メッセージ」を入力
-4. 「投稿する」ボタンをクリック
+1. Access the page
+2. Enter your name
+3. Type your message
+4. Click the "Post" button
 
-## 📁 ファイル構成
+## 📁 File Structure
 
 ```
 .
-├── index.html    # メインのHTMLファイル
-├── style.css     # スタイルシート
-└── app.js        # JavaScriptロジック
+├── index.html    # Main HTML file
+├── style.css     # Stylesheet
+└── app.js        # JavaScript logic
 ```
 
-## 🔧 開発環境のセットアップ
+## 🔧 Development Setup
 
-1. リポジトリをクローン：
+1. Clone the repository:
 ```bash
-git clone https://github.com/ユーザー名/bbs.git
+git clone https://github.com/username/bbs.git
 ```
 
-2. 任意のHTTPサーバーで実行（例：Python 3の場合）：
+2. Run with any HTTP server (example using Python 3):
 ```bash
 python3 -m http.server 8000
 ```
 
-3. ブラウザで `http://localhost:8000` にアクセス
+3. Access in browser at `http://localhost:8000`
 
-## 🌐 デモ
+## 🌐 Demo
 
-GitHub Pagesでホストされているデモ版は以下のURLでアクセス可能です：
-https://ユーザー名.github.io/bbs/
+A demo version is hosted on GitHub Pages and can be accessed at:
+https://username.github.io/bbs/
 
-## 🤝 コントリビューション
+## 🤝 Contributing
 
-1. このリポジトリをフォーク
-2. 新しいブランチを作成：`git checkout -b feature/something-new`
-3. 変更をコミット：`git commit -am 'feat: 新機能の追加'`
-4. ブランチにプッシュ：`git push origin feature/something-new`
-5. Pull Requestを作成
+1. Fork this repository
+2. Create a new branch: `git checkout -b feature/something-new`
+3. Make changes and commit: `git commit -am 'feat: add new feature'`
+4. Push to the branch: `git push origin feature/something-new`
+5. Submit a Pull Request
 
-## 📝 ライセンス
+## 📝 License
 
-MITライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
+Released under the MIT License. See [LICENSE](LICENSE) file for details.
 
-## 👥 作者
+## 👥 Author
 
-- 作成者名
+- Author Name
 - GitHub: [@username](https://github.com/username)
 
 ---
-🎯 これはテスト用のBBSアプリケーションです
+🎯 This is a test BBS application
