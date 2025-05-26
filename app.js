@@ -2,28 +2,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const messageForm = document.getElementById('messageForm');
     const messageList = document.getElementById('messageList');
 
-    // ダミーデータの生成
+    // Generate dummy data
     const dummyData = [
-        { name: "田中さくら", message: "はじめまして！このBBSを見つけてうれしいです。", timestamp: "2025-05-26 10:00" },
-        { name: "山田太郎", message: "今日は素晴らしい天気ですね。散歩に行ってきました。", timestamp: "2025-05-26 09:45" },
-        { name: "鈴木健一", message: "新しい料理のレシピを試してみました。とても美味しくできました！", timestamp: "2025-05-26 09:30" },
-        { name: "佐藤美咲", message: "週末に観た映画がとても良かったです。おすすめです。", timestamp: "2025-05-26 09:15" },
-        { name: "高橋翔太", message: "最近始めたジョギング、良い習慣になってきました。", timestamp: "2025-05-26 09:00" },
-        { name: "伊藤花子", message: "新しい本を読み始めました。面白いのでおすすめです！", timestamp: "2025-05-26 08:45" },
-        { name: "渡辺優", message: "今週末のイベント、楽しみにしています。", timestamp: "2025-05-26 08:30" },
-        { name: "小林大輔", message: "庭の花が綺麗に咲きました。春が来ましたね。", timestamp: "2025-05-26 08:15" },
-        { name: "中村愛", message: "新しいカフェを見つけました。居心地が良くておすすめです。", timestamp: "2025-05-26 08:00" },
-        { name: "加藤正樹", message: "プログラミングの勉強を始めました。頑張ります！", timestamp: "2025-05-26 07:45" },
-        { name: "吉田純子", message: "朝ヨガを始めてから、一日が充実しています。", timestamp: "2025-05-26 07:30" },
-        { name: "木村達也", message: "新しい趣味として写真撮影を始めました。", timestamp: "2025-05-26 07:15" },
-        { name: "松本さやか", message: "手作りパンにハマっています。次は何を作ろうかな。", timestamp: "2025-05-26 07:00" },
-        { name: "斎藤健", message: "久しぶりに実家に帰りました。懐かしい場所です。", timestamp: "2025-05-26 06:45" },
-        { name: "山本美優", message: "新しいペットを迎えました。とても可愛いです！", timestamp: "2025-05-26 06:30" },
-        { name: "井上拓真", message: "テレワークが定着してきて、生活リズムが変わりました。", timestamp: "2025-05-26 06:15" },
-        { name: "林明子", message: "ガーデニングを始めました。癒されます。", timestamp: "2025-05-26 06:00" },
-        { name: "岡田隆", message: "今日は友人とオンライン飲み会です。楽しみ！", timestamp: "2025-05-26 05:45" },
-        { name: "森田優子", message: "新しい資格の勉強を始めました。頑張ります。", timestamp: "2025-05-26 05:30" },
-        { name: "清水翔太", message: "最近のお気に入りの音楽を見つけました。おすすめです！", timestamp: "2025-05-26 05:15" }
+        { name: "Sarah Parker", message: "Hello! So happy to find this BBS.", timestamp: "2025-05-26 10:00" },
+        { name: "Thomas Wilson", message: "Beautiful weather today! Went for a nice walk.", timestamp: "2025-05-26 09:45" },
+        { name: "Ken Mitchell", message: "Tried a new recipe today. Turned out great!", timestamp: "2025-05-26 09:30" },
+        { name: "Michelle Lee", message: "Watched an amazing movie this weekend. Highly recommend!", timestamp: "2025-05-26 09:15" },
+        { name: "James Cooper", message: "Started jogging recently. Becoming a good habit.", timestamp: "2025-05-26 09:00" },
+        { name: "Hannah Brown", message: "Started reading a new book. It's fascinating!", timestamp: "2025-05-26 08:45" },
+        { name: "Oliver Chen", message: "Looking forward to this weekend's event!", timestamp: "2025-05-26 08:30" },
+        { name: "David Thompson", message: "The flowers in my garden are blooming beautifully. Spring is here!", timestamp: "2025-05-26 08:15" },
+        { name: "Emma Davis", message: "Found a great new café. Love the atmosphere!", timestamp: "2025-05-26 08:00" },
+        { name: "Michael Kim", message: "Started learning programming. Excited about it!", timestamp: "2025-05-26 07:45" },
+        { name: "Julia Roberts", message: "Morning yoga has been making my days so much better.", timestamp: "2025-05-26 07:30" },
+        { name: "Daniel Taylor", message: "Picked up photography as a new hobby.", timestamp: "2025-05-26 07:15" },
+        { name: "Sophie Martin", message: "Got into baking bread. What should I make next?", timestamp: "2025-05-26 07:00" },
+        { name: "Kevin Anderson", message: "Visited my hometown after a long time. Nostalgic!", timestamp: "2025-05-26 06:45" },
+        { name: "Emily White", message: "Just got a new pet! So adorable!", timestamp: "2025-05-26 06:30" },
+        { name: "Richard Clark", message: "Remote work is changing my daily routine.", timestamp: "2025-05-26 06:15" },
+        { name: "Alice Green", message: "Started gardening. It's so therapeutic!", timestamp: "2025-05-26 06:00" },
+        { name: "Ryan Phillips", message: "Having an online party with friends tonight. Can't wait!", timestamp: "2025-05-26 05:45" },
+        { name: "Victoria Hughes", message: "Started studying for a new certification. Wish me luck!", timestamp: "2025-05-26 05:30" },
+        { name: "Peter Shaw", message: "Found some great new music. You should check it out!", timestamp: "2025-05-26 05:15" }
     ];
 
     // メッセージカードの生成関数
